@@ -7,11 +7,15 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 35px;
+}
+
 .orange-color {
     color: orange;
 }
 
-section {
+.flexcible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -48,6 +52,40 @@ section {
 .Dream-Big {
     background-image: url(new-background.png);
     background-position-y: 110%;
-
     background-repeat: no-repeat;
+}
+
+.Experience-area {
+    background-image: url(expariment-background.png);
+    background-repeat: no-repeat;
+    background-position: left 150px;
+}
+
+.half-width-old {
+    width: 40%;
+    padding-left: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 50px gray;
+    border-radius: 5;
+}
+
+#dev-something {
+    border-left: 5px solid;
+    border-image: linear-gradient(salmon, orange);
+
+    border-image-slice: 1;
+
+}
+
+#baby-web {
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+
+}
+
+footer {
+    text-align: center;
+    color: lightsalmon;
 }
